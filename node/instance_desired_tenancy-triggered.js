@@ -4,10 +4,10 @@
 // Ensure EC2 Instances have desired tenancy
 // Description: Checks that EC2 Instances have desired tenancy
 //
-// Trigger Type: ```Change Triggered```
-// Scope of Changes: ```EC2:Instance```
-// Required Parameter: ```DesiredTenancy```
-// Example Value: ```dedicated```
+// Trigger Type: Change Triggered
+// Scope of Changes: EC2:Instance
+// Required Parameter: DesiredTenancy
+// Example Value: dedicated
 
 var aws = require('aws-sdk');
 var config = new aws.ConfigService();

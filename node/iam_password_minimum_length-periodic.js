@@ -4,9 +4,9 @@
 // Ensure IAM password policy requires a minimum number of characters.
 // Description: Checks that the IAM password policy requires minimum number of characters
 //
-// Trigger Type: ```Periodic```
-// Required Parameter: ```MinimumPasswordLength```
-// Example Value: ```12```
+// Trigger Type: Periodic
+// Required Parameter: MinimumPasswordLength
+// Example Value: 12
 
 var aws  = require('aws-sdk');
 var s3 = new aws.S3();

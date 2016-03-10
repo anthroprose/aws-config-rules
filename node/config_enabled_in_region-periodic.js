@@ -4,8 +4,8 @@
 // Ensure AWS Config is Enabled in All Regions
 // Description: Checks that AWS Config is Enabled in All Regions
 // 
-// Trigger Type: ```Periodic```
-// Required Parameter: ```None```
+// Trigger Type: Periodic
+// Required Parameter: None
 
 var aws  = require('aws-sdk');
 var s3 = new aws.S3();

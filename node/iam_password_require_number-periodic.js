@@ -4,8 +4,8 @@
 // Ensure IAM password policy requires a number.
 // Description: Checks that the IAM password policy requires a number
 // 
-// Trigger Type: ```Periodic```
-// Required Parameter: ```None```
+// Trigger Type: Periodic
+// Required Parameter: None
 
 
 var aws  = require('aws-sdk');

@@ -4,9 +4,9 @@
 // Ensure IAM User has MFA Enabled
 // Description: Checks that all IAM Users have MFA Enabled
 // 
-// Trigger Type: ```Change Triggered```
-// Scope of Changes: ```IAM:User```
-// Required Parameter: ```None```
+// Trigger Type: Change Triggered
+// Scope of Changes: IAM:User
+// Required Parameter: None
 
 var aws = require('aws-sdk');
 var config = new aws.ConfigService();

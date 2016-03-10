@@ -4,8 +4,8 @@
 // Ensure CloudTrail is Enabled for All Regions
 // Description: Checks that a CloudTrail exists that is set to multi-region
 // 
-// Trigger Type: ```Periodic```
-// Required Parameter: ```None```
+// Trigger Type: Periodic
+// Required Parameter: None
 
 var aws  = require('aws-sdk');
 var s3 = new aws.S3();

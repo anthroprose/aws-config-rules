@@ -4,9 +4,9 @@
 // Ensure IAM password policy prevents password reuse.
 // Description: Checks that the IAM password policy prevents password reuse
 //
-// Trigger Type: ```Periodic```
-// Required Parameter: ```PasswordReusePrevention```
-// Example Value: ```24```
+// Trigger Type: Periodic
+// Required Parameter: PasswordReusePrevention
+// Example Value: 24
 
 var aws  = require('aws-sdk');
 var s3 = new aws.S3();

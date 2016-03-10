@@ -4,8 +4,8 @@
 // Ensure IAM password policy requires a symbol.
 // Description: Checks that the IAM password policy requires a symbol
 //
-// Trigger Type: ```Periodic```
-// Required Parameter: ```None```
+// Trigger Type: Periodic
+// Required Parameter: None
 
 var aws  = require('aws-sdk');
 var s3 = new aws.S3();

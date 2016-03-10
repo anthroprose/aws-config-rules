@@ -4,10 +4,10 @@
 # Ensure all EC2 Instances are of a Given Type
 # Description: Checks that all EC2 instances are of the type specified
 #
-# Trigger Type: ```Change Triggered```
-# Scope of Changes: ```EC2:Instance```
-# Required Parameter: ```desiredInstanceType```
-# Example Value: ```t2.small```
+# Trigger Type: Change Triggered
+# Scope of Changes: EC2:Instance
+# Required Parameter: desiredInstanceType
+# Example Value: t2.small
 # 
 # See https://aws.amazon.com/ec2/instance-types/ for more instance types
 

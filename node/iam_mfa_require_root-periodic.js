@@ -4,8 +4,8 @@
 // Ensure MFA Enabled on Root Account
 // Description: Checks that the Root Account has MFA Enabled
 // 
-// Trigger Type: ```Periodic```
-// Required Parameter: ```None```
+// Trigger Type: Periodic
+// Required Parameter: None
 
 var aws  = require('aws-sdk');
 var s3 = new aws.S3();
